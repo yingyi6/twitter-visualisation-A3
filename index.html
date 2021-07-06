@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<title>
+    Barack Obama’s Actions to Fight Climate Change
+</title>
+
+<body>
+    <div class="header">
+        <div class="header-text">
+            <h1><strong> Climate Change in the US</strong></h1>
+            <hr>
+            </hr>
+            <h3> Uncovering former president Barak Obama’s actions to fight climate change </h3>
+        </div>
+    </div>
+
+    <div class="climatechange">
+        <div class="climatechange-text">
+            <h3><strong>What is cliamte change?</strong></h2>
+                <h5>Climate change refers to the changes of the weather pattern of a particular location or the planet
+                    as a
+                    whole. This is a result of humanity’s increased use of fossil fuels which releases carbon dioxide
+                    and
+                    toxic
+                    emissions into the atmosphere. These greenhouse gases have negative implications on the Earth as the
+                    increase in pollution and heat will ultimately decrease the health of the people and ecosystems.
+
+                    <br> <br>Due to these potential long-term issues, the necessity to act upon and reduce the rate of
+                    climate change
+                    has become a significant topic amongst various communities. Influential figures have either
+                    expressed
+                    their
+                    support by addressing these issues or have chosen to remain silent.
+                </h5>
+        </div>
+    </div>
+
+    <div class="obama">
+        <div class="obama-text">
+            <h3><strong>President Obama's stance on climate change</strong></h2>
+                <h5>The former 44th President of the United States of America from 2009 -2017, Barack Obama has been at
+                    the helm of the
+                    world’s largest and most influential countries. He believes that no challenge poses a greater threat
+                    to
+                    our children, our planet, and future generations than climate change — and that no other country on
+                    Earth is better equipped to lead the world towards a solution.
+                </h5>
+        </div>
+    </div>
+
+
+    <!-- VISULISATION 1 -->
+    <div class="vis1-cont">
+        <div class="vis1" id="vis1">
+            <p>Data sourced from the Global Carbon Project (2020)</p>
+        </div>
+
+        <div class="vis-text">
+            <div class="style"></div>
+            <p>
+                With the US being the second largest emitter of CO2 reversing the effects of climate change have been at
+                the forefront of challenges for several decades however, significant strides have been made within
+                recent years. <br> <br> During <span
+                    style="background-color: #003b88;color:white;  padding:5px; border-radius: 5px;">Obama’s</span>
+                presidency (2009 - 2017) is when we start to see a decrease as the annual
+                emissions at the end of 2017 is seen to be at its lowest ever since the 1990s. However, since the
+                presidency of <span
+                    style="background-color: #da1e53;color:white;  padding:5px; border-radius: 5px;">Trump</span> (2017
+                - 2020)
+                C02 emissions are seen to have increased.
+            </p>
+        </div>
+    </div>
+
+    <div class="obama">
+        <div class="obama-text">
+            <h3><strong>President Obama's Actions</strong></h2>
+                <h5>Under President Obama’s leadership, the United States has done more to combat climate change than
+                    ever before. One of his most notable government initiatives was the Climate Action Plan.
+                    <br> <br> On June 25th, 2013, President Obama announced his Climate Action Plan (CAP) during a
+                    speech at
+                    Georgetown University. This comprehensive plan is the first of its kind and was developed by the
+                    Administration to strategically achieve three overarching goals:
+                    <ul>
+                        <li>Cut domestic carbon pollution </li>
+                        <li>Prepare the United States for climate change impacts</li>
+                        <li>Lead international efforts to address global climate change.</li>
+                    </ul>
+                </h5>
+        </div>
+    </div>
+
+    <!-- VISULISATION 2 -->
+    <div class="vis2-cont">
+        <div class="vis2" id="vis2">
+        </div>
+
+        <div class="vis-text">
+            <div class="style"></div>
+            <p>
+                However, his voice was not only confined to official conferences and announcements he continued the
+                conversation on social media specifically twitter. Following the Climate Action Plan, Obama utilised the
+                hashtag <span
+                    style="background-color: #da1e53;color:white;  padding:5px; border-radius: 5px;">#ActOnClimate</span>
+                , which was his most used hashtag compared to other topics with over 300 tweets.
+            </p>
+        </div>
+    </div>
+
+    <div class="obama">
+        <div class="obama-text">
+            <h5>The utilisation of social media during his presidency allowed him to become one of the most
+                influential government advocates over the concerns of climate change. This allowed Obama to
+                communicate and raise awareness with a wider demographic to convey his message towards the public of
+                the negative implications of climate change as well as his plans to combat these issues. However,
+                comparing Obama’s actions towards climate change with Trumps, we can see a significant difference.
+            </h5>
+        </div>
+    </div>
+
+    <!-- Interactive tabs 3 -->
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><strong>Obama
+                tweets</strong></button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')"><strong>Trump tweets</strong></button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')"><strong>Both</strong></button>
+    </div>
+
+    <div id="London" class="tabcontent">
+        <h4><strong>A representation of Obama's tweets related to cliamte change</strong></h4>
+        <p>Throughout his presidency Obama has consistently tweeted about the topic of climate change which confirms
+            his support of the issue and it is not just a one-time stunt. He has also used various hashtags that were
+            related to climate change which can be filtered within the graph. </p>
+        <!-- VISULISATION 3 -->
+        <div class="vis3-cont">
+            <div class="vis3" id="vis3">
+            </div>
+
+            <div class="vis-text">
+                <div class="style"></div>
+                <p>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="Paris" class="tabcontent">
+        <h4><strong>A representation of Trumps tweets related to cliamte change</strong></h4>
+        <p>Trump had tweeted about ten times as much as Obama despite being in office for half the time however, his
+            tweets towards climate change were almost non-existent. With the few he has tweeted they contained sardonic
+            remarks and arguments against climate change. Starting from point A in 2017 we can follow trumps history of
+            tweets until 2019. Analysis of the two points can suggest that within two years Trumps views on climate
+            change remain the same.</p>
+        <!-- VISULISATION 4 -->
+        <div class="vis4-cont">
+            <div class="vis4" id="vis4">
+            </div>
+        </div>
+    </div>
+
+    <div id="Tokyo" class="tabcontent">
+        <h4><strong>Comparing Obama's and Trump's negative tweets on climate change</strong></h4>
+        <p>Comparing the negative tweets of Obama and Trump show two completely different views on climate change.
+            <span style="background-color: #003b88;color:white;  padding:5px; border-radius: 5px;">Obama's</span>
+            negative tweets focused on the threat of climate change to spread awareness and drive conversation.
+            <span style="background-color: #da1e53;color:white;  padding:5px; border-radius: 5px;">Trump's</span> tweets
+            on the other hand are the complete opposite as he questions the existence of global warming.
+        </p>
+        <!-- VISULISATION 5 -->
+        <div class="vis5-cont">
+            <div class="vis5" id="vis5">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="obama1">
+        <div class="obama-text1">
+            <h5>Donald Trump’s stance on climate change is apparent within his tweets and his actions. On the first day
+                Donald Trump’s presidency, the White House (2017) announced that Obama's Climate Action
+                Plan would be eliminated, stating it is 'harmful and unnecessary'.
+                <br><br>Following to January 2021, on the Inauguration Day of U.S. president Joe Biden, Trump's
+                executive order was
+                revoked by the executive order "Protecting Public Health and the Environment and Restoring Science to
+                Tackle the Climate Crisis" (Whitehouse, 2021) , thereby re-instating the Obama Climate Action Plan. With
+                Biden's presidency hopes of reversing the effects of climate change are optimistic and make honour of
+                the
+                actions that Obama has taken.
+
+            </h5>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

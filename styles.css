@@ -1,0 +1,263 @@
+body {
+    background: linear-gradient(to top, #defcda, #0363b8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'helvetica', sans-serif;
+    color: #170a3b;
+    margin:auto;
+    height: 6000px;
+    background-repeat: no-repeat; /*this lets the background stay in place even when scrolling*/
+    background-attachment: fixed;
+}
+
+p {margin-bottom: 1rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'helvetica', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.052rem;
+}
+
+h2 {font-size: 2.441rem;}
+
+h3 {font-size: 1.953rem;}
+
+h4 {font-size: 1.563rem;}
+
+h5 {font-size: 1.25rem;}
+
+small, .text_small {font-size: 0.8rem;}
+
+
+
+.header{
+    width:auto;
+    height: 1000px;    
+}
+
+hr{
+    background: #170a3b;
+    height:3px;
+    border: none;
+}
+
+.header-text{
+    text-align: left;
+    position: absolute; 
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -50%); /* This positions the text in the middle of the header*/
+    color: #170a3b;
+}
+
+.climatechange{
+    max-width: 700px;
+    margin: auto;
+}
+.climatechange-text{
+    text-align: left;
+}
+
+
+
+.obama{
+    max-width: 700px;
+    margin: auto;
+}
+.obama-text{
+    text-align: left;
+}
+
+
+/*Styling the scrolling text*/
+
+.vis-text{
+    margin-left: 700px;
+    margin-top: 0;
+    margin-bottom: 900px;
+    align-items: center;
+    max-height: 100%;
+    width: 500px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.vis-text p{
+    margin: 10px;
+    text-align: left;
+    padding:10px;
+    font-size: 20px;
+    color: #15243d;
+    line-height: 1.7;
+}
+
+
+/* VIS 1*/
+
+.vis1-cont{
+    align-items: center;
+    margin:auto;
+    height: 1450px;
+    max-width: 1200px;
+    padding-top:150px;
+    padding-bottom:200px;
+}
+.vis1{
+    width: 650px;
+    height: 800px;
+    position: sticky; /* this allows the graph to stay static and have text scroll past */
+    top: 50px;
+    text-align: center;
+}
+
+ul{
+    line-height: 2.5;
+}
+
+
+/* VIS 2*/
+.vis2-cont{
+    align-items: center;
+    margin:auto;
+    height: 1370px;
+    max-width: 1200px;
+    padding-top:150px;
+    padding-bottom:100px;
+}
+.vis2{
+    width: 650px;
+    height: 800px;
+    position: sticky; /* this allows the graph to stay static and have text scroll past */
+    top: 50px;
+    text-align: center;
+}
+
+
+/* VIS 3*/
+.vis3-cont{
+    align-items: center;
+    margin:auto;
+    height: 0px;
+    max-width: 1200px;
+
+}
+.vis3{
+    
+    height: 650px;
+    position: sticky; /* this allows the graph to stay static and have text scroll past */
+    top: 50px;
+    text-align: center;
+}
+
+/* VIS 4*/
+.vis4-cont{
+    align-items: center;
+    margin:auto;
+    height: 0px;
+    max-width: 1200px;
+
+}
+.vis4{
+    height: 650px;
+    max-width: 1200px;
+    position: sticky; /* this allows the graph to stay static and have text scroll past */
+    top: 50px;
+    text-align: center;
+}
+
+/* VIS 5 */
+.vis5-cont{
+    align-items: center;
+    margin:auto;
+    height: 0px;
+    max-width: 1200px;
+
+}
+.vis5{
+    height: 650px;
+    max-width: 1200px;
+    position: sticky; /* this allows the graph to stay static and have text scroll past */
+    top: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #170a3b;
+    margin: auto;
+    align-items: center;
+    max-width: 1200px;
+    margin-top: 150px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color:white;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #003b88;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #003b88;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    border-top: none;
+    background: rgb(240, 251, 255);
+    margin: auto;
+    align-items: center;
+    max-width: 1200px;
+    padding-top: 20px;
+  }
+
+  .tabcontent h4{
+      padding:20px;
+      margin: 0;
+      text-align: center;
+  }
+
+  .tabcontent p{
+    padding:0;
+    margin: auto;
+    text-align: center;
+    max-width:700px;
+    line-height: 1.7;
+}
+
+
+.obama1{
+    max-width: 700px;
+    margin: auto;
+    margin-top: 800px;
+}
+.obama-text1{
+    text-align: left;
+}
